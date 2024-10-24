@@ -57,10 +57,6 @@ export default function MemoryCards() {
     useEffect(() => {
         if (matchedCards.length === 8) {
             setIsMatchWon(true);
-
-            // setTimeout(() => {
-            //     shuffleCards();
-            // }, 300);
         }
     }, [matchedCards]);
 

@@ -50,7 +50,7 @@ export default function Card({
                 }
             }}
         >
-            <span className="text-[24px]">
+            <span className="text-[32px]">
                 {isMatched ? data.value : isFlipped ? data.value : "?"}
             </span>
         </div>
